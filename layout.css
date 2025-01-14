@@ -10,12 +10,6 @@ padding: 20px;
 
 }
 
-.item1 {
-
-	background-color: #ECE9DB;
-	border: 2px solid hwb(274 16% 49% / 0.777);
-
-}
 .container {
   display: grid;
   height: 500px;
@@ -38,7 +32,10 @@ padding: 20px;
   grid-template-areas:
       "header header header"
       "content-3 content-3 content-3"
+      "content-3 content-3 content-3"
       "content-4 content-4 content-4"
+      "content-4 content-4 content-4"
+      "content-5 content-5 content-5"
       "content-5 content-5 content-5"
       "content-6 content-6 content-6"
       "content-7 content-7 content-7"
@@ -68,12 +65,14 @@ padding: 20px;
 	grid-area: content-1;
   text-align: center;
   font-family: cursive
+ 
 }
 
 .content-4 {
 	grid-area: content-1;
   text-align: center;
   font-family: cursive
+  
 }
 
 .content-5 {
