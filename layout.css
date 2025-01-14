@@ -1,0 +1,161 @@
+body {
+  padding: 20px;
+  font-family: Helvetica, Arial, sans-serif;
+  
+}
+.item {
+padding: 20px;
+	background-color: #ECE9DB;
+	border: 2px solid hwb(274 16% 49% / 0.777);
+
+}
+
+.item1 {
+
+	background-color: #ECE9DB;
+	border: 2px solid hwb(274 16% 49% / 0.777);
+
+}
+.container {
+  display: grid;
+  height: 500px;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr 1fr; 
+  grid-gap: 20px;
+  grid-template-areas:
+      "header header header"
+      "content-1 content-1 content-1"
+      "content-1 content-1 content-1"
+      "footer footer footer";
+}
+
+.container-1 {
+  display: grid;
+  height: 250px;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr 1fr; 
+  grid-gap: 20px;
+  grid-template-areas:
+      "header header header"
+      "content-3 content-3 content-3"
+      "content-4 content-4 content-4"
+      "content-5 content-5 content-5"
+      "content-6 content-6 content-6"
+      "content-7 content-7 content-7"
+      "content-8 content-8 content-8"
+      "content-9 content-9 content-9"
+      "content-10 content-10 content-11"
+      "content-12 content-12 content-12"
+      "content-13 content-13 content-13"
+      "footer footer footer";
+}
+
+
+.header {
+	grid-area: header;
+  text-align: center;
+    font-family: 'Tangerine', serif;
+    font-size: large;
+}
+
+.content-1 {
+	grid-area: content-1;
+  text-align: center;
+  font-family: cursive
+}
+
+.content-3 {
+	grid-area: content-1;
+  text-align: center;
+  font-family: cursive
+}
+
+.content-4 {
+	grid-area: content-1;
+  text-align: center;
+  font-family: cursive
+}
+
+.content-5 {
+	grid-area: content-1;
+  text-align: center;
+  font-family: cursive
+}
+
+.content-6 {
+	grid-area: content-1;
+  text-align: center;
+  font-family: cursive
+}
+.content-7 {
+	grid-area: content-1;
+  text-align: center;
+  font-family: cursive
+}
+
+.content-8 {
+	grid-area: content-1;
+  text-align: center;
+  font-family: cursive
+}
+
+.content-9 {
+	grid-area: content-1;
+  text-align: center;
+  font-family: cursive
+}
+.content-10 {
+	grid-area: content-1;
+  text-align: center;
+  font-family: cursive
+}
+.content-11 {
+	grid-area: content-1;
+  text-align: center;
+  font-family: cursive
+}
+.content-12 {
+	grid-area: content-1;
+  text-align: center;
+  font-family: cursive
+}
+.content-13 {
+	grid-area: content-1;
+  text-align: center;
+  font-family: cursive
+}
+
+
+
+
+
+
+.footer {
+  grid-area: footer;
+text-align: center;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+
+
+p { 
+  color: #421d5e;
+}
+
+h1 { 
+  color: #421d5e;
+}
+
+h2 { 
+  color: #421d5e;
+}
+
+a {
+  color:rgb(81, 20, 20)
+}
+
+
+
+
+
+
